@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> cabecera
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -33,3 +37,6 @@ nav a {
 }
 
 
+    color: #fff;
+    font-weight: bold;
+}
