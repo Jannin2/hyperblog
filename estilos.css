@@ -1,40 +1,39 @@
-body
-{
-    color: darkorchid;
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; /* Puedes ajustar el ancho del contenedor según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
     text-align: center;
-    font-family: "Arial";
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-
 }
 
-#cabecera
+h1 {
+    margin: 0;
+}
 
-{
-    background-color: rgb(51, 24, 228);
-    box-shadow: 0px 2px 20px opx red(0.0.0.0.5);
-    color: antiquewhite;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
     font-weight: bold;
-    margin: 0;
-    padding: 0.5cm;
-    
 }
-
-#cabecera #tagline
-{
-    padding: 0 0 0 1cm;
-    font-weight: normal;
-    font-size: 0.8cm;
-
-}
-
-#container
-{
-    width: 70%;
-    padding: 0;
-    text-align: left;
-    border: 1px solid cornsilk;
-    margin: o auto;
-}
-#container h1{font-size:20px}#post{padding:1em}
